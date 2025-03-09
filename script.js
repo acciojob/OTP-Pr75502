@@ -2,7 +2,7 @@ let inputBox = document.querySelectorAll(".code");
 
 inputBox.forEach((input, index) => {
     input.addEventListener("input", () => {
-        if (input.value.length > 0 && index < inputBox.length - 1) {
+        if (input.value.length=== 1 && index < inputBox.length - 1) {
             inputBox[index + 1].focus();
         }
     });
